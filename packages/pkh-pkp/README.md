@@ -1,11 +1,11 @@
-## Ethereum AuthMethod and Verifier
+## PKP Ethereum AuthMethod and Verifier
 Implements support to authenticate, authorize and verify with Ethereum accounts as a did:pkh with SIWE(X) and CACAO. 
 Primarly used with `did-session` and `@didtools/cacao`. 
 
 ## Installation
 
 ```
-npm install --save @didtools/pkh-ethereum
+npm install --save pkh-pkp
 ```
 
 ## Auth Usage
@@ -14,7 +14,7 @@ To Auth in web based env, use any injected web3 provider that implements the sta
 
 ```js
 // Web Auth Usage
-import { EthereumWebAuth, getAccountId } from '@didtools/pkh-ethereum'
+import { EthereumWebAuth, getAccountId } from 'pkh-pkp'
 // ...
 
 const ethProvider = // import/get your web3 eth provider
